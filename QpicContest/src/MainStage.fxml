@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0000999999975" prefWidth="250.0" xmlns:fx="http://javafx.com/fxml" fx:controller="MainStageController">
+  <children>
+    <TextField fx:id="argument" layoutX="7.0" layoutY="8.0" prefWidth="168.0" promptText="引数を入力して下さい" />
+    <Button fx:id="button" layoutX="179.0" layoutY="9.0" mnemonicParsing="false" onAction="#showAnswer" text="計算する" />
+    <TextArea fx:id="answer_field" editable="false" layoutX="7.0" layoutY="37.0" prefHeight="349.0001220703125" prefWidth="236.0" wrapText="true" />
+  </children>
+</AnchorPane>
